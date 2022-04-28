@@ -13,8 +13,8 @@ import (
 )
 
 func main() {
-	gw := flag.Int("w", 4, "grid gw in cells")
-	gh := flag.Int("h", 4, "grid gh in cells")
+	gw := flag.Int("w", 4, "grid width in cells")
+	gh := flag.Int("h", 4, "grid height in cells")
 	input := flag.String("i", "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4", "input")
 	flag.Parse()
 
